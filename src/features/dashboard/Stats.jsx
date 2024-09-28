@@ -7,7 +7,8 @@ import {
 import Stat from "./Stat";
 import { formatCurrency } from "../../utils/helpers";
 
-function Stats({ bookings, confirmedStays, numDays, cabinCount }) {
+// function Stats({ bookings, confirmedStays, numDays, cabinCount }) {
+function Stats({ bookings = [], confirmedStays = [], numDays, cabinCount }) {
   // 1.
   const numBookings = bookings.length;
 
